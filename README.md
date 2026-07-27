@@ -1,6 +1,6 @@
-ForgeDriveHW
+#ForgeDriveHW
 
-«Forged by passionate engineers.»
+_Forged by passionate engineers._
 
 ForgeDrive is an open-source research and development platform for modular, scalable, and industrial-inspired systems.
 
@@ -28,9 +28,9 @@ Whether developing a compact BLDC controller or a complete industrial servo driv
 
 ---
 
-Core Principles
+##Core Principles
 
-Modularity
+**Modularity**
 
 Each subsystem has a single responsibility.
 
@@ -48,7 +48,7 @@ Modules should be independently testable and reusable across projects.
 
 ---
 
-Scalability
+**Scalability**
 
 ForgeDrive is designed to scale across applications.
 
@@ -63,7 +63,7 @@ The same architecture should support:
 
 ---
 
-Engineering First
+**Engineering First**
 
 Design decisions are driven by engineering rather than trends.
 
@@ -80,7 +80,7 @@ Topics documented throughout the project include:
 
 ---
 
-Learning by Building
+**Learning by Building**
 
 ForgeDrive is intended to be as educational as it is practical.
 
@@ -159,30 +159,7 @@ Mechanical
 
 ---
 
-Repository Structure
-
-ForgeDrive/
-│
-├── ForgeX/
-│
-├── SharedLib/
-│
-├── Doc/
-│   ├── architecture/
-│   ├── communication/
-│   ├── electrical/
-│   ├── manufacturing/
-│   ├── mechanical/
-│   └── safety/
-│
-│
-├── tools/
-│
-└── README.md
-
----
-
-Documentation
+##Documentation
 
 Documentation is considered a first-class component of the project.
 
@@ -206,33 +183,11 @@ Shared documentation includes:
 
 ---
 
-Development Workflow
-
-Every module follows a revision-based workflow.
-
-Typical lifecycle:
-
-Concept
-    ↓
-Architecture
-    ↓
-Schematic
-    ↓
-PCB Layout
-    ↓
-Review
-    ↓
-Prototype
-    ↓
-Validation
-    ↓
-Revision
-
 Hardware revisions are maintained independently while Git preserves complete design history.
 
 ---
 
-Design Philosophy
+##Design Philosophy
 
 ForgeDrive emphasizes:
 
@@ -247,7 +202,7 @@ ForgeDrive emphasizes:
 
 ---
 
-Open Source
+##Open Source
 
 ForgeDrive is developed in the open.
 
@@ -263,7 +218,7 @@ Constructive engineering feedback is always appreciated.
 
 ---
 
-Roadmap
+##Roadmap
 
 Some long-term goals include:
 
@@ -279,7 +234,7 @@ Some long-term goals include:
 
 ---
 
-Disclaimer
+##Disclaimer
 
 ForgeDrive contains hardware intended for development, experimentation, and learning.
 
