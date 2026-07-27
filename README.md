@@ -159,7 +159,7 @@ Mechanical
 
 ---
 
-##Documentation
+## Documentation
 
 Documentation is considered a first-class component of the project.
 
@@ -187,7 +187,7 @@ Hardware revisions are maintained independently while Git preserves complete des
 
 ---
 
-##Design Philosophy
+## Design Philosophy
 
 ForgeDrive emphasizes:
 
@@ -202,7 +202,7 @@ ForgeDrive emphasizes:
 
 ---
 
-##Open Source
+## Open Source
 
 ForgeDrive is developed in the open.
 
@@ -218,7 +218,7 @@ Constructive engineering feedback is always appreciated.
 
 ---
 
-##Roadmap
+## Roadmap
 
 Some long-term goals include:
 
@@ -234,7 +234,7 @@ Some long-term goals include:
 
 ---
 
-##Disclaimer
+## Disclaimer
 
 ForgeDrive contains hardware intended for development, experimentation, and learning.
 
