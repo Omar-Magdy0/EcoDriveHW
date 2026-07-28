@@ -515,7 +515,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HBM_U400P10.kicad_pro",
+    "filename": "PSU_U400O12n5.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -695,8 +695,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "HBM_U400P10.kicad_sch",
-        "name": "HBM_U400P10",
+        "filename": "PSU_U400O12n5.kicad_sch",
+        "name": "PSU_U400O12n5",
         "uuid": "1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
       }
     ],
@@ -706,7 +706,7 @@
   "sheets": [
     [
       "1a6c144a-7454-4471-b4a5-7e9f7815fcbd",
-      "HBM_U400P10"
+      "PSU_U400O12n5"
     ]
   ],
   "text_variables": {},
