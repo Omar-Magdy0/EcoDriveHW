@@ -3891,16 +3891,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 22.86) (xy 99.06 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4141b7cf-6b94-407e-bdf4-d125c6408460")
-	)
-	(wire
-		(pts
 			(xy 185.42 59.69) (xy 185.42 63.5)
 		)
 		(stroke
@@ -4148,6 +4138,16 @@
 			(type default)
 		)
 		(uuid "6a69ce2a-3a08-4db1-b17f-ed79b9e6cd8e")
+	)
+	(wire
+		(pts
+			(xy 99.06 25.4) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b186c0b-90a9-4722-9360-f85d1eacd9f6")
 	)
 	(wire
 		(pts
@@ -4411,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 99.06 38.1)
+			(xy 99.06 36.83) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6298,6 +6298,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 99.06 21.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e36e492-ed90-41aa-a444-132a4ecf79e3")
+		(property "Reference" "R6"
+			(at 102.108 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5"
+			(at 98.806 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 100.838 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "432b9162-b50d-46b1-9d82-0b807e520559")
+		)
+		(pin "2"
+			(uuid "e889446c-635e-4704-8169-e84b3a40b803")
+		)
+		(instances
+			(project "HBM_U400P10"
+				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 41.91 118.11 0)
 		(unit 1)
@@ -7314,7 +7393,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 99.06 22.86 0)
+		(at 99.06 17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7325,7 +7404,7 @@
 		(fields_autoplaced yes)
 		(uuid "6db31d5c-1513-4412-9bf4-5a3437822064")
 		(property "Reference" "#PWR014"
-			(at 99.06 26.67 0)
+			(at 99.06 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7415,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 99.06 17.78 0)
+			(at 99.06 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7346,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 22.86 0)
+			(at 99.06 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 22.86 0)
+			(at 99.06 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 22.86 0)
+			(at 99.06 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8887,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:BYV26EGP-E3_73")
-		(at 99.06 29.21 90)
+		(at 99.06 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8819,17 +8898,6 @@
 		(fields_autoplaced yes)
 		(uuid "9be561ac-e650-40e3-8b0b-9258b7013ae0")
 		(property "Reference" "D1"
-			(at 102.2929 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BYV26EGP-E3/73"
 			(at 102.2929 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,8 +8908,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "BYV26EGP-E3/73"
+			(at 102.2929 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "EasyEDA:DO-15_BD3.1-L6.7-P10.70-D0.9-FD"
-			(at 106.68 29.21 0)
+			(at 106.68 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8852,7 +8931,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-Rectifiers-Hyperfast_VISHAY_BYV26EGP-E3-73_BYV26EGP-E3-73_C15074.html"
-			(at 109.22 29.21 0)
+			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,7 +8942,7 @@
 			)
 		)
 		(property "Description" "BYV26EGP-E3/73"
-			(at 99.06 29.21 0)
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8874,7 +8953,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY(威世)"
-			(at 111.76 29.21 0)
+			(at 111.76 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,7 +8964,7 @@
 			)
 		)
 		(property "MPN" "BYV26EGP-E3/73"
-			(at 114.3 29.21 0)
+			(at 114.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8896,7 +8975,7 @@
 			)
 		)
 		(property "LCSC Part" "C15074"
-			(at 116.84 29.21 0)
+			(at 116.84 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
