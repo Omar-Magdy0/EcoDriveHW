@@ -594,6 +594,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -961,12 +1127,6 @@
 		(uuid "4893cea3-c15e-43d0-aaaf-3020d249db05")
 	)
 	(junction
-		(at 102.87 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c5e66b7-c91b-4229-8d90-26e98164b1ca")
-	)
-	(junction
 		(at 67.31 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -985,22 +1145,10 @@
 		(uuid "aeba1333-78bb-4ec5-a879-30ff1cbdad74")
 	)
 	(junction
-		(at 60.96 171.45)
+		(at 63.5 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b386cfe1-0537-4369-9cfe-a7b1d10ecf34")
-	)
-	(junction
-		(at 60.96 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c615df-1d77-4456-a8f2-83d847c12a62")
-	)
-	(junction
-		(at 102.87 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6f3f31e-195f-436e-99a4-7d4c241914ef")
 	)
 	(junction
 		(at 66.04 45.72)
@@ -1013,12 +1161,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2801aa5-27bf-4a85-b161-61d1f1e2f92d")
-	)
-	(junction
-		(at 60.96 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4c46543-ae1c-4a90-969c-237f17edf861")
 	)
 	(wire
 		(pts
@@ -1062,16 +1204,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 154.94) (xy 102.87 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a982db4-556d-4135-93d5-6b78634a5dfa")
-	)
-	(wire
-		(pts
 			(xy 57.15 45.72) (xy 66.04 45.72)
 		)
 		(stroke
@@ -1092,7 +1224,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 163.83) (xy 60.96 163.83)
+			(xy 63.5 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca7dd02-25c1-492c-a3ce-17c23ad54a88")
+	)
+	(wire
+		(pts
+			(xy 69.85 146.05) (xy 63.5 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1109,16 +1251,6 @@
 			(type default)
 		)
 		(uuid "2356cece-7509-4059-acbb-d81b920e8915")
-	)
-	(wire
-		(pts
-			(xy 60.96 156.21) (xy 67.31 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ffa251-8963-4ca1-951f-43739904bab8")
 	)
 	(wire
 		(pts
@@ -1142,16 +1274,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 165.1) (xy 102.87 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7ad8e0-d132-4a0f-8a33-6847d2d3c489")
-	)
-	(wire
-		(pts
 			(xy 101.6 88.9) (xy 101.6 91.44)
 		)
 		(stroke
@@ -1159,16 +1281,6 @@
 			(type default)
 		)
 		(uuid "3014ce33-d6c5-4925-9663-b82cbf815dee")
-	)
-	(wire
-		(pts
-			(xy 102.87 172.72) (xy 109.22 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3053b725-c37e-42b9-af27-13b2c325cebd")
 	)
 	(wire
 		(pts
@@ -1222,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 93.98) (xy 101.6 93.98)
+			(xy 99.06 93.98) (xy 102.87 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 52.07 118.11)
+			(xy 45.72 118.11) (xy 53.34 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1292,6 +1404,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 95.25) (xy 62.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4a3be4-a9cc-41fe-bb83-29d916705239")
+	)
+	(wire
+		(pts
 			(xy 48.26 68.58) (xy 45.72 68.58)
 		)
 		(stroke
@@ -1302,7 +1424,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 52.07 71.12)
+			(xy 113.03 93.98) (xy 118.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dee4857-8e43-454a-bf19-e2bab702d98a")
+	)
+	(wire
+		(pts
+			(xy 45.72 71.12) (xy 54.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 60.96 175.26)
+			(xy 63.5 146.05) (xy 63.5 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1422,17 +1554,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 165.1) (xy 102.87 172.72)
+			(xy 111.76 118.11) (xy 114.3 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b187b7fe-bcd8-4a2d-95b8-96cf5edee8b6")
+		(uuid "b09b3e2c-0eba-4987-9a13-997199c8206c")
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 104.14 118.11)
+			(xy 99.06 118.11) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1452,16 +1584,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 60.96 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91da6dc-bb26-406b-aae5-b9eb4a6cfc50")
-	)
-	(wire
-		(pts
 			(xy 76.2 30.48) (xy 95.25 30.48)
 		)
 		(stroke
@@ -1472,23 +1594,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 52.07 95.25)
+			(xy 45.72 95.25) (xy 49.53 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf145bf8-aa54-4690-9b71-d146b9558e99")
-	)
-	(wire
-		(pts
-			(xy 60.96 148.59) (xy 60.96 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfad1098-996f-44f6-a880-e60785b2c715")
 	)
 	(wire
 		(pts
@@ -1509,16 +1621,6 @@
 			(type default)
 		)
 		(uuid "cd85f4b2-f4b4-4a59-97a5-1077aed86131")
-	)
-	(wire
-		(pts
-			(xy 67.31 148.59) (xy 60.96 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1442bf4-df5a-48ca-8c84-e55656c9b987")
 	)
 	(wire
 		(pts
@@ -1562,6 +1664,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee77453f-b201-4e86-8ea9-3c21595b0829")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 76.2 34.29)
 		)
 		(stroke
@@ -1572,7 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 171.45) (xy 67.31 171.45)
+			(xy 63.5 153.67) (xy 69.85 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1629,6 +1741,86 @@
 			(justify left bottom)
 		)
 		(uuid "ee78394a-3f98-4e92-b782-783f13349e84")
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 58.42 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "019eab5a-5fce-4991-add8-c6043570e10b")
+		(property "Reference" "JP4"
+			(at 58.42 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 58.42 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libmain:PowerJumper_PMB"
+			(at 58.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 58.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72828113-1840-4459-bb3e-7113414485bf")
+		)
+		(pin "2"
+			(uuid "a634e394-9a37-4f3e-a9d7-ef3ffb354888")
+		)
+		(instances
+			(project "PMB_U400S5"
+				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1700,7 +1892,7 @@
 			(uuid "e704252d-bffd-4f38-81db-22972fbfbc47")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR03")
 					(unit 1)
@@ -1710,7 +1902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 175.26 0)
+		(at 63.5 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1721,7 +1913,7 @@
 		(fields_autoplaced yes)
 		(uuid "14964383-6025-430a-91b3-55d851181c62")
 		(property "Reference" "#PWR02"
-			(at 60.96 181.61 0)
+			(at 63.5 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,7 +1924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 180.34 0)
+			(at 63.5 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1742,7 +1934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 175.26 0)
+			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,7 +1945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 175.26 0)
+			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 175.26 0)
+			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,7 +1970,7 @@
 			(uuid "ff7dd815-4047-478f-b9b3-1e35694b540a")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR02")
 					(unit 1)
@@ -1788,7 +1980,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 57.15 71.12 0)
+		(at 73.66 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1799,7 +1991,7 @@
 		(fields_autoplaced yes)
 		(uuid "23570c45-26e1-4bd0-b8a4-473ded13684b")
 		(property "Reference" "J6"
-			(at 59.69 69.8499 0)
+			(at 76.2 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1810,7 +2002,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 59.69 72.3899 0)
+			(at 76.2 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1821,7 +2013,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 57.15 71.12 0)
+			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1832,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 71.12 0)
+			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1843,7 +2035,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 71.12 0)
+			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,164 +2049,9 @@
 			(uuid "e2342339-031f-4fc3-aa0f-fb945dbac59c")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 114.3 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26855d0e-74fc-45f9-a483-75d333ba2f67")
-		(property "Reference" "J15"
-			(at 116.84 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 116.84 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 114.3 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 114.3 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "098dd6f8-a5a2-4ac5-a676-441b29608baf")
-		)
-		(instances
-			(project "MOD_INVERTER_BASEV0"
-				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 123.19 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30bcd4cf-51dc-4f52-a4fb-4ffc111f887b")
-		(property "Reference" "H4"
-			(at 125.73 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 125.73 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965"
-			(at 123.19 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 123.19 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "MOD_INVERTER_BASEV0"
-				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2090,88 +2127,9 @@
 			(uuid "a9d34507-8bf4-4532-9ade-916bd665d5e9")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 72.39 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e67d130-97ed-4e67-9145-3be9848a7c5f")
-		(property "Reference" "J10"
-			(at 74.93 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 74.93 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 72.39 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31b6d6f4-581b-4ed6-8858-8971395d52f5")
-		)
-		(instances
-			(project "MOD_INVERTER_BASEV0"
-				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Libmain:CP_Radial_D22.0mm_P10.00mm_SnapIn_Ceye"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 58.1152 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2250,7 +2208,7 @@
 			(uuid "66f9e7a0-add8-48ed-a46c-3f217ff98105")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "C1")
 					(unit 1)
@@ -2328,7 +2286,7 @@
 			(uuid "e99d4071-7937-4ef9-9395-f9faf5868c8a")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR04")
 					(unit 1)
@@ -2338,7 +2296,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 57.15 118.11 0)
+		(at 69.85 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2349,7 +2307,7 @@
 		(fields_autoplaced yes)
 		(uuid "481d6b4f-128b-4baa-a423-71329db3c6ac")
 		(property "Reference" "J4"
-			(at 59.69 116.8399 0)
+			(at 72.39 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2360,7 +2318,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 59.69 119.3799 0)
+			(at 72.39 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2371,7 +2329,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 57.15 118.11 0)
+			(at 69.85 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2382,7 +2340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 118.11 0)
+			(at 69.85 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2351,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 118.11 0)
+			(at 69.85 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,7 +2365,7 @@
 			(uuid "e849b68b-afd7-4f74-b7b1-9b2281a261c9")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J4")
 					(unit 1)
@@ -2417,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 72.39 171.45 0)
+		(at 74.93 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2428,7 +2386,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fc66572-f6a2-4396-a153-827a5c037512")
 		(property "Reference" "J14"
-			(at 74.93 170.1799 0)
+			(at 77.47 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2439,7 +2397,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 74.93 172.7199 0)
+			(at 77.47 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2450,7 +2408,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 72.39 171.45 0)
+			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,7 +2419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 171.45 0)
+			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2472,7 +2430,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 171.45 0)
+			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2486,7 +2444,7 @@
 			(uuid "bf17bcb7-8d5e-4838-9c42-75848cf54225")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J14")
 					(unit 1)
@@ -2565,7 +2523,7 @@
 			(uuid "166e494f-be29-411d-ae9d-8ad0eebb6a2a")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J9")
 					(unit 1)
@@ -2643,7 +2601,7 @@
 			(uuid "4cde0cda-a610-46a6-aff0-92622bdf07d8")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR014")
 					(unit 1)
@@ -2721,7 +2679,7 @@
 			(uuid "4b00f157-04ee-4c08-b1a4-9ad11d0e4d6f")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR08")
 					(unit 1)
@@ -2804,7 +2762,7 @@
 			(uuid "7da5e0c0-f94d-48ba-8d6c-e035666b6b1f")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J1")
 					(unit 1)
@@ -2814,7 +2772,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 109.22 118.11 0)
+		(at 119.38 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2825,7 +2783,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c564fae-ba1e-416f-a871-4014c8293d52")
 		(property "Reference" "J17"
-			(at 111.76 116.8399 0)
+			(at 121.92 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2836,7 +2794,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 111.76 119.3799 0)
+			(at 121.92 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2847,7 +2805,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 109.22 118.11 0)
+			(at 119.38 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 118.11 0)
+			(at 119.38 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +2827,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.22 118.11 0)
+			(at 119.38 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2841,7 @@
 			(uuid "7339cdc5-3b12-4c89-8c65-c613ff4a1db0")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J17")
 					(unit 1)
@@ -2924,7 +2882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Libmain:CP_Radial_D22.0mm_P10.00mm_SnapIn_Ceye"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 96.2152 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2964,9 +2922,90 @@
 			(uuid "06217951-be92-4783-b7b9-2cc9d40c5827")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 76.2 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "705a8281-e85a-4cbf-9303-2c83016b96b0")
+		(property "Reference" "C2"
+			(at 79.248 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "450V, 150u"
+			(at 78.74 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+			(at 77.1652 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 76.2 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce405ff5-eae2-4012-8ba8-003e8ccb5715")
+		)
+		(pin "1"
+			(uuid "06d685ec-edb0-41b7-aa59-7f38d6920b17")
+		)
+		(instances
+			(project "PMB_U400S5"
+				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3081,7 @@
 			(uuid "9ffbb99e-9b3e-4262-babb-5736dab0b1ba")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR011")
 					(unit 1)
@@ -3051,8 +3090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 76.2 38.1 0)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 106.68 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3060,31 +3099,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "765b7d68-e25e-45d8-8f73-e28c915c68e0")
-		(property "Reference" "C2"
-			(at 78.994 36.068 0)
+		(fields_autoplaced yes)
+		(uuid "7b66a0cc-dae7-4479-b22e-58968270b333")
+		(property "Reference" "JP5"
+			(at 106.68 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "450V, 150u"
-			(at 78.74 38.354 0)
+		(property "Value" "Jumper_2_Bridged"
+			(at 106.68 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Libmain:CP_Radial_D22.0mm_P10.00mm_SnapIn_Ceye"
-			(at 77.1652 41.91 0)
+		(property "Footprint" "Libmain:PowerJumper_PMB"
+			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,7 +3133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 38.1 0)
+			(at 106.68 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,8 +3143,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 76.2 38.1 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 106.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,17 +3153,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "054df634-aff2-44e6-8379-137a476e7400")
 		)
 		(pin "1"
-			(uuid "a1b92166-1fad-4de6-9ff0-d5af28483ed7")
+			(uuid "05fcfe3f-e0fc-4d43-929a-5e5dd5b8c580")
+		)
+		(pin "2"
+			(uuid "5db341cf-87da-4af6-8fda-1942a87e1730")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "C2")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3244,7 @@
 			(uuid "04c8990e-8199-4279-93fd-2278997bede3")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J7")
 					(unit 1)
@@ -3216,7 +3254,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 72.39 163.83 0)
+		(at 74.93 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3227,7 +3265,7 @@
 		(fields_autoplaced yes)
 		(uuid "8531d6b5-55a4-45d1-9e19-b958620f43ee")
 		(property "Reference" "J13"
-			(at 74.93 162.5599 0)
+			(at 77.47 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3238,7 +3276,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 74.93 165.0999 0)
+			(at 77.47 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3249,7 +3287,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 72.39 163.83 0)
+			(at 74.93 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +3298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 163.83 0)
+			(at 74.93 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,7 +3309,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 163.83 0)
+			(at 74.93 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3323,7 @@
 			(uuid "120f4901-5d28-462d-92d8-4fe00089159e")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J13")
 					(unit 1)
@@ -3363,88 +3401,9 @@
 			(uuid "f9a73c1f-72e6-420a-8fe8-fd48b6920c32")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 114.3 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "917cfce2-eee3-474e-a162-5921ad7a2629")
-		(property "Reference" "J16"
-			(at 116.84 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 116.84 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 114.3 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 114.3 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac53a90b-345d-4e0c-b8bb-fe31bd27706b")
-		)
-		(instances
-			(project "MOD_INVERTER_BASEV0"
-				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3520,9 +3479,89 @@
 			(uuid "523fa84d-35ba-4c56-8138-914f61927233")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 54.61 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "960d7520-955d-4b44-9241-99887a2a1c02")
+		(property "Reference" "JP3"
+			(at 54.61 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 54.61 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libmain:PowerJumper_PMB"
+			(at 54.61 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 54.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f9fed28-2985-49d4-a998-893634ab7dbd")
+		)
+		(pin "2"
+			(uuid "08e5f476-b03d-4b41-88d4-aea31182506e")
+		)
+		(instances
+			(project "PMB_U400S5"
+				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3598,7 +3637,7 @@
 			(uuid "be413d39-b909-493d-9aa1-b50e57d8e743")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR01")
 					(unit 1)
@@ -3681,7 +3720,7 @@
 			(uuid "c4716438-4e87-478e-9410-a5aaceb84e65")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J2")
 					(unit 1)
@@ -3764,7 +3803,7 @@
 			(uuid "b99b6c3e-ad10-4d9a-aa39-d16e600e72af")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J3")
 					(unit 1)
@@ -3842,7 +3881,7 @@
 			(uuid "e0c0035b-c6e3-4162-9ec9-6d9c8d18c28e")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR012")
 					(unit 1)
@@ -3851,84 +3890,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 104.14 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac27c6f9-1cda-4459-87fa-d69676b12ef4")
-		(property "Reference" "H3"
-			(at 106.68 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 106.68 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965"
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "MOD_INVERTER_BASEV0"
-				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 106.68 93.98 0)
+		(at 123.19 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3939,7 +3902,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5cb1a41-690a-461e-a4fa-5e52a2e29b9c")
 		(property "Reference" "J18"
-			(at 109.22 92.7099 0)
+			(at 125.73 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +3913,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 109.22 95.2499 0)
+			(at 125.73 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3961,7 +3924,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 106.68 93.98 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 93.98 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +3946,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 93.98 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +3960,7 @@
 			(uuid "2cf05ad3-cdad-4f80-a8eb-6f58abc77a2c")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J18")
 					(unit 1)
@@ -4073,7 +4036,7 @@
 			)
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "H1")
 					(unit 1)
@@ -4156,9 +4119,89 @@
 			(uuid "aaf019b4-8286-4e1f-8d8f-46aa0a6cb28c")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 107.95 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4073c3c-b27e-41ac-8138-c34ee98e285d")
+		(property "Reference" "JP2"
+			(at 107.95 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 107.95 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libmain:PowerJumper_PMB"
+			(at 107.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 107.95 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffecb4dd-0986-44c7-8937-a54d21a9ad93")
+		)
+		(pin "2"
+			(uuid "2a2aec85-27e7-46ca-b770-0569921140ad")
+		)
+		(instances
+			(project "PMB_U400S5"
+				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4275,7 @@
 			)
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "H2")
 					(unit 1)
@@ -4310,7 +4353,7 @@
 			(uuid "6fdc7022-e453-414c-81e1-402d9fceb9cb")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR09")
 					(unit 1)
@@ -4351,7 +4394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Libmain:CP_Radial_D22.0mm_P10.00mm_SnapIn_Ceye"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 39.0652 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4391,7 +4434,7 @@
 			(uuid "4e62b786-89b7-4c49-b842-f10355826e1e")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "C4")
 					(unit 1)
@@ -4469,7 +4512,7 @@
 			(uuid "8bdd585e-6f60-4a42-b693-44694e216e96")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR05")
 					(unit 1)
@@ -4547,7 +4590,7 @@
 			(uuid "9f256898-0155-4d76-83e8-24edaeed9119")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "#PWR013")
 					(unit 1)
@@ -4557,86 +4600,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 72.39 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f05c976d-e28f-4ae0-a2c5-a3c792f76692")
-		(property "Reference" "J11"
-			(at 74.93 154.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 74.93 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 72.39 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b04ee37-99a7-402a-9f0f-e707aba4e3f2")
-		)
-		(instances
-			(project "MOD_INVERTER_BASEV0"
-				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 57.15 95.25 0)
+		(at 67.31 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4647,7 +4611,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3e37518-09a1-4498-8b88-1b863b98f730")
 		(property "Reference" "J5"
-			(at 59.69 93.9799 0)
+			(at 69.85 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4658,7 +4622,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 59.69 96.5199 0)
+			(at 69.85 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4669,7 +4633,7 @@
 			)
 		)
 		(property "Footprint" "Libmain:M3_PCONN_1x01"
-			(at 57.15 95.25 0)
+			(at 67.31 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4680,7 +4644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 95.25 0)
+			(at 67.31 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +4655,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 95.25 0)
+			(at 67.31 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4705,7 +4669,7 @@
 			(uuid "e6b0e712-c096-4acb-926e-065489802f96")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J5")
 					(unit 1)
@@ -4784,9 +4748,89 @@
 			(uuid "6e2a48c4-d466-4735-b3dd-396acb4e69a4")
 		)
 		(instances
-			(project "MOD_INVERTER_BASEV0"
+			(project "PMB_U400S5"
 				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 59.69 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8d59d59-ab77-47b2-855e-b5388429b9f3")
+		(property "Reference" "JP1"
+			(at 59.69 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 59.69 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libmain:PowerJumper_PMB"
+			(at 59.69 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 59.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62862e98-dd84-4469-b68c-7b006b58cc84")
+		)
+		(pin "2"
+			(uuid "3a9ecf44-bf93-402e-892e-7ac58e062cf2")
+		)
+		(instances
+			(project "PMB_U400S5"
+				(path "/98daacc5-ceea-4950-a399-3b6a90e46099"
+					(reference "JP1")
 					(unit 1)
 				)
 			)

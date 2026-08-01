@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.199998,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.0,
+          "height": 1.8,
+          "width": 1.325
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 3.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.6,
-          "min_island_area": 0.0013161349,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -249,7 +249,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.9,
+          "diameter": 1.0,
           "drill": 0.5
         },
         {
@@ -511,8 +511,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Libmain"
+    ],
+    "pinned_symbol_libs": [
+      "libmain"
+    ]
   },
   "meta": {
     "filename": "PSU_U400O12n5.kicad_pro",
@@ -700,7 +704,7 @@
         "uuid": "1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
       }
     ],
-    "used_designators": "J1-4,R1-7,R10,R14-20,R27-29,D1-3,T1,#PWR1-10,#PWR17-21,#PWR31-35,#PWR63-65,C1-5,C10,C21,Q1-2,H1-7,U1-3,JP1-2",
+    "used_designators": "J1-4,R1-20,R27-29,D1-5,T1,#PWR1-27,#PWR31-35,#PWR63-65,C1-11,C21,Q1-2,H1-7,U1-5,JP1-2,L1-2",
     "variants": []
   },
   "sheets": [

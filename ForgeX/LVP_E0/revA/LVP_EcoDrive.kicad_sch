@@ -3416,159 +3416,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse_Small"
-				(at 0 1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fuse, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fuse_Small_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4784,7 +4631,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117-5.0"
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4800,7 +4647,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-5.0"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4833,7 +4680,7 @@
 					)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4866,7 +4713,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-5.0_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -4879,7 +4726,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-5.0_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -6037,18 +5884,6 @@
 		(uuid "e7e3bd45-ca80-45f1-9a78-e4fe269bd167")
 	)
 	(junction
-		(at 241.3 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "054580eb-6e89-451f-8eba-73431fe72417")
-	)
-	(junction
-		(at 241.3 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2432f8c4-8cde-4c06-8eb9-872a2e594cb1")
-	)
-	(junction
 		(at 162.56 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6095,12 +5930,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5659ed36-fc7d-4450-b231-ac074519d164")
-	)
-	(junction
-		(at 241.3 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5667bba2-8f6f-4e58-9f4b-54e0bcb948bd")
 	)
 	(junction
 		(at 96.52 104.14)
@@ -6211,10 +6040,22 @@
 		(uuid "c35986af-c899-4d76-b123-c7937522bc70")
 	)
 	(junction
+		(at 257.81 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf788daf-cca1-47f4-99ec-61909bd40840")
+	)
+	(junction
 		(at 102.87 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4f25a6e-42ba-4f6a-a46a-eef84015d1d0")
+	)
+	(junction
+		(at 257.81 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d811a639-ec20-4bec-8465-2dd8da38a0cc")
 	)
 	(junction
 		(at 80.01 104.14)
@@ -6227,12 +6068,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de1aa394-5614-4acb-86a5-377b374f6758")
-	)
-	(junction
-		(at 257.81 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e870f099-da68-4a32-8a1f-50b58d97bbb2")
 	)
 	(junction
 		(at 78.74 74.93)
@@ -6450,16 +6285,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 241.3 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc4e53c-a307-4891-9ecd-db52a82d38f0")
-	)
-	(wire
-		(pts
 			(xy 30.48 168.91) (xy 30.48 163.83)
 		)
 		(stroke
@@ -6507,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "10011810-fb50-48cc-aca0-5ad6a8a42e64")
+	)
+	(wire
+		(pts
+			(xy 245.11 64.77) (xy 257.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c9049e-9574-499f-b0f8-1cbe272d47b0")
 	)
 	(wire
 		(pts
@@ -6697,16 +6532,6 @@
 			(type default)
 		)
 		(uuid "1b5f9ea7-5796-41f1-a3b5-b4fc63ab370f")
-	)
-	(wire
-		(pts
-			(xy 266.7 64.77) (xy 270.51 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c95c227-a6a9-4975-820e-a88baef63dac")
 	)
 	(wire
 		(pts
@@ -7070,7 +6895,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 59.69) (xy 261.62 59.69)
+			(xy 257.81 59.69) (xy 267.97 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7237,6 +7062,16 @@
 			(type default)
 		)
 		(uuid "4e447f28-f5dc-4130-89bf-0151e60c262c")
+	)
+	(wire
+		(pts
+			(xy 241.3 62.23) (xy 245.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc65d23-e066-405f-9e24-9530d254ff47")
 	)
 	(wire
 		(pts
@@ -7440,6 +7275,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 59.69) (xy 257.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efaf740-e791-476f-aa81-baf32a2e470e")
+	)
+	(wire
+		(pts
 			(xy 162.56 38.1) (xy 171.45 38.1)
 		)
 		(stroke
@@ -7547,6 +7392,16 @@
 			(type default)
 		)
 		(uuid "6c9daddb-4d7a-48e5-b908-ddbdf19496e5")
+	)
+	(wire
+		(pts
+			(xy 257.81 62.23) (xy 259.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccd5b82-ee42-409a-921e-f22117c7b9c7")
 	)
 	(wire
 		(pts
@@ -7820,16 +7675,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 64.77) (xy 245.11 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c06676-eaa7-41a6-bf8c-febc45b9886e")
-	)
-	(wire
-		(pts
 			(xy 67.31 30.48) (xy 74.93 30.48)
 		)
 		(stroke
@@ -7867,16 +7712,6 @@
 			(type default)
 		)
 		(uuid "86b9153d-3a48-457c-bc77-540162a669e4")
-	)
-	(wire
-		(pts
-			(xy 257.81 62.23) (xy 257.81 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877a84e5-6e91-4018-afd1-4d361dd93b58")
 	)
 	(wire
 		(pts
@@ -7940,16 +7775,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 57.15) (xy 241.3 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ca99fb-ddef-410a-9ebd-1f39690ef16b")
-	)
-	(wire
-		(pts
 			(xy 120.65 81.28) (xy 120.65 83.82)
 		)
 		(stroke
@@ -8010,7 +7835,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 57.15) (xy 262.89 57.15)
+			(xy 257.81 57.15) (xy 261.62 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8087,16 +7912,6 @@
 			(type default)
 		)
 		(uuid "9dae411b-348c-4bf2-8db6-d40e5bf8396a")
-	)
-	(wire
-		(pts
-			(xy 241.3 59.69) (xy 241.3 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee14d4e-1fdd-44c6-be02-2d1091cb9dee")
 	)
 	(wire
 		(pts
@@ -8190,16 +8005,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 64.77) (xy 257.81 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a914a574-06da-4670-8e70-050f87f284c0")
-	)
-	(wire
-		(pts
 			(xy 236.22 118.11) (xy 245.11 118.11)
 		)
 		(stroke
@@ -8217,16 +8022,6 @@
 			(type default)
 		)
 		(uuid "ab0cf337-c007-4bbd-9eda-33d26d099df8")
-	)
-	(wire
-		(pts
-			(xy 241.3 59.69) (xy 245.11 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abcd2c4d-9fa3-45c0-a0c1-fb8934b4e721")
 	)
 	(wire
 		(pts
@@ -8450,16 +8245,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 64.77) (xy 241.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63f51af-e2c2-4bf6-bb83-96a68bc32cde")
-	)
-	(wire
-		(pts
 			(xy 242.57 36.83) (xy 246.38 36.83)
 		)
 		(stroke
@@ -8620,16 +8405,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 59.69) (xy 270.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5fa4ce4-856e-4bc1-9508-61def8b1aa31")
-	)
-	(wire
-		(pts
 			(xy 257.81 54.61) (xy 260.35 54.61)
 		)
 		(stroke
@@ -8657,16 +8432,6 @@
 			(type default)
 		)
 		(uuid "d9b707eb-cdb4-45c6-a9e8-f4e5d431f0e9")
-	)
-	(wire
-		(pts
-			(xy 241.3 62.23) (xy 241.3 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da62cf28-54a5-4d8c-8dfd-70a3d7a932d6")
 	)
 	(wire
 		(pts
@@ -8817,6 +8582,16 @@
 			(type default)
 		)
 		(uuid "e8b2b340-cc05-4ac3-9cab-0d2a46c4cb3b")
+	)
+	(wire
+		(pts
+			(xy 257.81 64.77) (xy 267.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99deff2-0f8b-49aa-b7e9-8f33a43e18e2")
 	)
 	(wire
 		(pts
@@ -9269,7 +9044,7 @@
 		(uuid "30b4b972-3a54-4ca7-9aed-e104ff233d97")
 	)
 	(label "5V"
-		(at 270.51 59.69 180)
+		(at 267.97 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9389,7 +9164,7 @@
 		(uuid "4c64a264-b918-4007-b65a-b0650eca793b")
 	)
 	(label "12V"
-		(at 270.51 64.77 180)
+		(at 267.97 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9578,6 +9353,16 @@
 		)
 		(uuid "653f659a-9529-4cb9-9ca0-618842f12036")
 	)
+	(label "gnd"
+		(at 259.08 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6742f225-b354-4119-a430-5975d8264d33")
+	)
 	(label "ENC_R3"
 		(at 223.52 72.39 180)
 		(effects
@@ -9627,6 +9412,16 @@
 			(justify left bottom)
 		)
 		(uuid "6bfce9bb-6f22-4ed1-a05b-c23ddd1e47c4")
+	)
+	(label "gnd"
+		(at 241.3 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c20310e-16fd-4a85-8c22-e80f586093fc")
 	)
 	(label "ENC_R1-"
 		(at 41.91 27.94 0)
@@ -10258,16 +10053,6 @@
 		)
 		(uuid "e6d80864-f02e-4974-ad8a-aba7e3e808ac")
 	)
-	(label "-12V"
-		(at 262.89 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e927e584-7102-40ef-a537-f431f764f066")
-	)
 	(label "12V"
 		(at 262.89 149.86 180)
 		(effects
@@ -10279,6 +10064,16 @@
 		(uuid "eb6aea5c-bdc4-473c-8b7d-0f6b9714dc48")
 	)
 	(label "gnd"
+		(at 261.62 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebe60b41-332c-4a00-9dae-7783575e3946")
+	)
+	(label "gnd"
 		(at 219.71 62.23 180)
 		(effects
 			(font
@@ -10287,6 +10082,16 @@
 			(justify right bottom)
 		)
 		(uuid "ec4cf8c8-fbe6-414c-8f23-4a401564575e")
+	)
+	(label "gnd"
+		(at 241.3 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eee7b26a-86c3-41d2-8aa5-8f2f1bf57fef")
 	)
 	(label "ENC_R2-"
 		(at 41.91 87.63 0)
@@ -11100,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 79.7052 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +11654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 79.7052 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13497,7 +13302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722f492d-3e08-4971-8960-bb910a4c10cc")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 251.46 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13583,7 +13388,7 @@
 		(instances
 			(project "LVP_EcoDrive"
 				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14345,7 +14150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "818a79da-87c4-451f-9500-0a78e47abb1e")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 252.73 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14431,166 +14236,7 @@
 		(instances
 			(project "LVP_EcoDrive"
 				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 264.16 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83df36d4-6711-4269-9c32-170c85784c02")
-		(property "Reference" "F2"
-			(at 264.16 57.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse_Small"
-			(at 264.16 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric"
-			(at 264.16 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 264.16 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d2b9741-76f5-4bad-b126-392a317547e8")
-		)
-		(pin "1"
-			(uuid "1a1cfa05-8621-4169-911e-f3360a4c7243")
-		)
-		(instances
-			(project "LVP_EcoDrive"
-				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 66.04 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85389fe9-20bb-467e-8ca9-bd88bbad9caa")
-		(property "Reference" "#PWR024"
-			(at 241.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8f11cf1-2ddf-4304-9d71-ff8eae21103c")
-		)
-		(instances
-			(project "LVP_EcoDrive"
-				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
-					(reference "#PWR024")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14939,7 +14585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -15067,6 +14713,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 110.49 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "908ba3f0-adf1-4e4e-9d71-e39f107ba62d")
+		(property "Reference" "U4"
+			(at 110.49 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 110.49 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 110.49 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 113.03 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 110.49 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "93e0b937-6c15-4281-b196-2c91cbc51b6b")
+		)
+		(pin "3"
+			(uuid "30fd0730-3daf-48cb-95e1-55cbde9d613d")
+		)
+		(pin "1"
+			(uuid "9e01ff15-57fb-48a8-9063-7e2de4c30537")
+		)
+		(instances
+			(project "LVP_EcoDrive"
+				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 120.65 66.04 180)
 		(unit 1)
@@ -15097,7 +14826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -15558,7 +15287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 79.7052 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15730,7 +15459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 164.338 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -16603,86 +16332,6 @@
 			(project "LVP_EcoDrive"
 				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 264.16 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b92eefe6-faf0-4b16-ad32-15a280cc1972")
-		(property "Reference" "F1"
-			(at 264.16 62.738 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse_Small"
-			(at 264.16 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric"
-			(at 264.16 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 264.16 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "13aa8946-34a0-457b-bed2-0280d731bbd5")
-		)
-		(pin "1"
-			(uuid "eea5d361-ca7e-4705-a693-0cf1834ef9be")
-		)
-		(instances
-			(project "LVP_EcoDrive"
-				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -18527,89 +18176,6 @@
 			(project "LVP_EcoDrive"
 				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117-5.0")
-		(at 110.49 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8f83b72-36c0-4492-a291-0780d5a84a91")
-		(property "Reference" "U4"
-			(at 110.49 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-5.0"
-			(at 110.49 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 110.49 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 113.03 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
-			(at 110.49 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df6f3e5c-2ec5-4110-955b-06635bf7f0f3")
-		)
-		(pin "2"
-			(uuid "2d008921-d2f0-46ca-b32c-8a15d828764c")
-		)
-		(pin "3"
-			(uuid "77c96354-997d-415a-8873-72030780738f")
-		)
-		(instances
-			(project "LVP_EcoDrive"
-				(path "/1a6c144a-7454-4471-b4a5-7e9f7815fcbd"
-					(reference "U4")
 					(unit 1)
 				)
 			)
